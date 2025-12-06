@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E58AA9972EE3544A0025003E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58AA9782EE354470025003E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58AA97F2EE354470025003E;
+			remoteInfo = "Superhero Randomizer";
+		};
+		E58AA9A12EE3544A0025003E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58AA9782EE354470025003E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58AA97F2EE354470025003E;
+			remoteInfo = "Superhero Randomizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E58AA9802EE354470025003E /* Superhero Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Superhero Randomizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58AA9962EE3544A0025003E /* Superhero RandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Superhero RandomizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58AA9A02EE3544A0025003E /* Superhero RandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Superhero RandomizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E58AA9A82EE3544A0025003E /* Exceptions for "Superhero Randomizer" folder in "Superhero Randomizer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E58AA97F2EE354470025003E /* Superhero Randomizer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E58AA9822EE354470025003E /* Superhero Randomizer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E58AA9A82EE3544A0025003E /* Exceptions for "Superhero Randomizer" folder in "Superhero Randomizer" target */,
+			);
+			path = "Superhero Randomizer";
+			sourceTree = "<group>";
+		};
+		E58AA9992EE3544A0025003E /* Superhero RandomizerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Superhero RandomizerTests";
+			sourceTree = "<group>";
+		};
+		E58AA9A32EE3544A0025003E /* Superhero RandomizerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Superhero RandomizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58AA97D2EE354470025003E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58AA9932EE3544A0025003E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58AA99D2EE3544A0025003E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E58AA9772EE354470025003E = {
+			isa = PBXGroup;
+			children = (
+				E58AA9822EE354470025003E /* Superhero Randomizer */,
+				E58AA9992EE3544A0025003E /* Superhero RandomizerTests */,
+				E58AA9A32EE3544A0025003E /* Superhero RandomizerUITests */,
+				E58AA9812EE354470025003E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58AA9812EE354470025003E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58AA9802EE354470025003E /* Superhero Randomizer.app */,
+				E58AA9962EE3544A0025003E /* Superhero RandomizerTests.xctest */,
+				E58AA9A02EE3544A0025003E /* Superhero RandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58AA97F2EE354470025003E /* Superhero Randomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58AA9A92EE3544A0025003E /* Build configuration list for PBXNativeTarget "Superhero Randomizer" */;
+			buildPhases = (
+				E58AA97C2EE354470025003E /* Sources */,
+				E58AA97D2EE354470025003E /* Frameworks */,
+				E58AA97E2EE354470025003E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E58AA9822EE354470025003E /* Superhero Randomizer */,
+			);
+			name = "Superhero Randomizer";
+			packageProductDependencies = (
+			);
+			productName = "Superhero Randomizer";
+			productReference = E58AA9802EE354470025003E /* Superhero Randomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E58AA9952EE3544A0025003E /* Superhero RandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58AA9AE2EE3544A0025003E /* Build configuration list for PBXNativeTarget "Superhero RandomizerTests" */;
+			buildPhases = (
+				E58AA9922EE3544A0025003E /* Sources */,
+				E58AA9932EE3544A0025003E /* Frameworks */,
+				E58AA9942EE3544A0025003E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58AA9982EE3544A0025003E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E58AA9992EE3544A0025003E /* Superhero RandomizerTests */,
+			);
+			name = "Superhero RandomizerTests";
+			packageProductDependencies = (
+			);
+			productName = "Superhero RandomizerTests";
+			productReference = E58AA9962EE3544A0025003E /* Superhero RandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E58AA99F2EE3544A0025003E /* Superhero RandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58AA9B12EE3544A0025003E /* Build configuration list for PBXNativeTarget "Superhero RandomizerUITests" */;
+			buildPhases = (
+				E58AA99C2EE3544A0025003E /* Sources */,
+				E58AA99D2EE3544A0025003E /* Frameworks */,
+				E58AA99E2EE3544A0025003E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58AA9A22EE3544A0025003E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E58AA9A32EE3544A0025003E /* Superhero RandomizerUITests */,
+			);
+			name = "Superhero RandomizerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Superhero RandomizerUITests";
+			productReference = E58AA9A02EE3544A0025003E /* Superhero RandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58AA9782EE354470025003E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E58AA97F2EE354470025003E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E58AA9952EE3544A0025003E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E58AA97F2EE354470025003E;
+					};
+					E58AA99F2EE3544A0025003E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E58AA97F2EE354470025003E;
+					};
+				};
+			};
+			buildConfigurationList = E58AA97B2EE354470025003E /* Build configuration list for PBXProject "Superhero Randomizer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E58AA9772EE354470025003E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E58AA9812EE354470025003E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58AA97F2EE354470025003E /* Superhero Randomizer */,
+				E58AA9952EE3544A0025003E /* Superhero RandomizerTests */,
+				E58AA99F2EE3544A0025003E /* Superhero RandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58AA97E2EE354470025003E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58AA9942EE3544A0025003E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58AA99E2EE3544A0025003E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58AA97C2EE354470025003E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58AA9922EE3544A0025003E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58AA99C2EE3544A0025003E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E58AA9982EE3544A0025003E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58AA97F2EE354470025003E /* Superhero Randomizer */;
+			targetProxy = E58AA9972EE3544A0025003E /* PBXContainerItemProxy */;
+		};
+		E58AA9A22EE3544A0025003E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58AA97F2EE354470025003E /* Superhero Randomizer */;
+			targetProxy = E58AA9A12EE3544A0025003E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E58AA9AA2EE3544A0025003E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Superhero Randomizer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-20502.Superhero-Randomizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58AA9AB2EE3544A0025003E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Superhero Randomizer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-20502.Superhero-Randomizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E58AA9AC2EE3544A0025003E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E58AA9AD2EE3544A0025003E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58AA9AF2EE3544A0025003E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-20502.Superhero-RandomizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Superhero Randomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Superhero Randomizer";
+			};
+			name = Debug;
+		};
+		E58AA9B02EE3544A0025003E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-20502.Superhero-RandomizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Superhero Randomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Superhero Randomizer";
+			};
+			name = Release;
+		};
+		E58AA9B22EE3544A0025003E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-20502.Superhero-RandomizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Superhero Randomizer";
+			};
+			name = Debug;
+		};
+		E58AA9B32EE3544A0025003E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-20502.Superhero-RandomizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Superhero Randomizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58AA97B2EE354470025003E /* Build configuration list for PBXProject "Superhero Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58AA9AC2EE3544A0025003E /* Debug */,
+				E58AA9AD2EE3544A0025003E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58AA9A92EE3544A0025003E /* Build configuration list for PBXNativeTarget "Superhero Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58AA9AA2EE3544A0025003E /* Debug */,
+				E58AA9AB2EE3544A0025003E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58AA9AE2EE3544A0025003E /* Build configuration list for PBXNativeTarget "Superhero RandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58AA9AF2EE3544A0025003E /* Debug */,
+				E58AA9B02EE3544A0025003E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58AA9B12EE3544A0025003E /* Build configuration list for PBXNativeTarget "Superhero RandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58AA9B22EE3544A0025003E /* Debug */,
+				E58AA9B32EE3544A0025003E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58AA9782EE354470025003E /* Project object */;
+}
